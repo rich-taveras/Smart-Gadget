@@ -1,21 +1,22 @@
+// App.jsx
 
-import './App.css'
+import React from 'react';
+import './App.css';
+import Navbar from './pages/Navbar';
+import Footer from './pages/Footer';
+import Products from './pages/Products';
 
 function App() {
-    return (
+  return (
     <>
-      <div>
-        <img src="src/img/Icons  LOGO.com.jpeg" alt="" />
-      </div>
-      <h1 className='title'>Smart Gadgets</h1>
+      <Navbar />
+    
+      <p className="title">Smart Gadgets</p>
       <h2>Coming Soon</h2>
-      <div className="card">
-      </div>
-      <p className="">
-      © 2024 Smart Gadgets. All Rights Reserved.
-      </p>
+      <Products/>
+      <Footer/>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
