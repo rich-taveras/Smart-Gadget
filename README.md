@@ -1,2 +1,6 @@
-# React + Vite
+# Smart Gadgets Website
+
+## Colaborators
+
+## License
 
