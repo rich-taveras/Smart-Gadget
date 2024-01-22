@@ -7,7 +7,7 @@ const Navbar = () => {
 
 <nav class="bg-white border-gray-200 dark:bg-gray-900">
   <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-8">
-    <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
+    <a href="src/img/logo" class="flex items-center space-x-3 rtl:space-x-reverse">
       <img src="src/img/logo.jpeg" class="h-16" alt="Smart Gadgets Logo" />
       <span class="self-center text-4xl font-semibold whitespace-nowrap dark:text-white">Smart Gadgets</span>
     </a>
