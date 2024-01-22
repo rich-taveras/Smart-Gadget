@@ -10,10 +10,9 @@ function App() {
   return (
     <>
       <Navbar />
-    
-      <p className="title">Smart Gadgets</p>
-      <h2>Coming Soon</h2>
+      <h2>NEW ARRIVALS</h2>
       <Products/>
+      <h2>NEW ARRIVALS</h2>
       <Footer/>
     </>
   );
