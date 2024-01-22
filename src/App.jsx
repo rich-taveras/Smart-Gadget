@@ -13,7 +13,7 @@ function App() {
       <h2>NEW ARRIVALS</h2>
       <Products/>
       <h2>NEW ARRIVALS</h2>
-      {/* <Footer/> */}
+      <Footer/>
     </>
   );
 }
