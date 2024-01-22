@@ -6,7 +6,7 @@ const Footer = () => {
     <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
         <div class="md:flex md:justify-between">
           <div class="mb-6 md:mb-0">
-              <a href="" class="flex items-center">
+              <a href="src/img/logo.jpeg" class="flex items-center">
                   <img src="src/img/logo.jpeg" class="h-16 me-4" alt="Smart Gadgets Logo" />
                   <span class="self-center text-4xl font-semibold whitespace-nowrap dark:text-white">Smart Gadgets</span>
               </a>
