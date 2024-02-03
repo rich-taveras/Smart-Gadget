@@ -1,4 +1,5 @@
 import React from 'react'
+import logo from 'src/img/logo.jpg';
 
 const Footer = () => {
   return (
@@ -7,7 +8,7 @@ const Footer = () => {
         <div class="md:flex md:justify-between">
           <div class="mb-6 md:mb-0">
               <a href="#" class="flex items-center">
-                  <img src="src/img/logo.jpg" class="h-16 me-4" alt="Smart Gadgets Logo" />
+                  <img src={logo} class="h-16 me-4" alt="Smart Gadgets Logo" />
                   <span class="self-center text-4xl font-semibold whitespace-nowrap dark:text-white">Smart Gadgets</span>
               </a>
           </div>
