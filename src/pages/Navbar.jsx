@@ -1,5 +1,6 @@
 import React from 'react'
-import Products from './Products'
+// import Products from './Products'
+import logo from '../img/logo.jpg';
 
 const Navbar = () => {
   return (
@@ -8,7 +9,7 @@ const Navbar = () => {
 <nav className="bg-white border-gray-200 dark:bg-gray-900">
   <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-8">
     <a href="" className="flex items-center space-x-3 rtl:space-x-reverse">
-      <img src="src/img/logo.jpg" className="h-16" alt="Smart Gadgets Logo" />
+      <img src={logo} className="h-16" alt="Smart Gadgets Logo" />
       <span className="self-center text-4xl font-semibold whitespace-nowrap dark:text-white">Smart Gadgets</span>
     </a>
   <div className="flex md:order-2">
